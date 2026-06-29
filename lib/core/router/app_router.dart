@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../shared/widgets/not_found_page.dart';
 import '../constants/app_constants.dart';
+import '../../features/dashboard/presentation/pages/dashboard_page.dart';
 
 /// App Router Configuration
 /// Uses Go Router for declarative routing with deep linking support
@@ -27,10 +28,7 @@ class AppRouter {
       GoRoute(
         path: AppRoutes.dashboard,
         name: 'Dashboard',
-        builder: (context, state) => Scaffold(
-          appBar: AppBar(title: const Text('Dashboard')),
-          body: const Center(child: Text('Dashboard - To be implemented')),
-        ),
+        builder: (context, state) => const DashboardPage(),
       ),
 
       // Transactions Routes

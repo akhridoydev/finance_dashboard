@@ -71,6 +71,32 @@ class AppConstants {
   static const String incomeCommission = 'Commission';
   static const String incomeOther = 'Other Income';
   static const String incomeRecurring = 'Recurring Income';
+  static const String incomeConsulting = 'Consulting';
+  static const String incomeProductSale = 'Product Sale';
+  static const String incomeRoyalty = 'Royalty';
+  static const String incomeInterest = 'Interest Income';
+  static const String incomeDividend = 'Dividend Income';
+  static const String incomeRefund = 'Refund';
+  static const String incomeDiscount = 'Discount Received';
+
+  // Income Categories List
+  static const List<String> incomeCategories = [
+    incomeClientPayment,
+    incomeService,
+    incomeMaintenance,
+    incomeAMC,
+    incomeSubscription,
+    incomeCommission,
+    incomeOther,
+    incomeRecurring,
+    incomeConsulting,
+    incomeProductSale,
+    incomeRoyalty,
+    incomeInterest,
+    incomeDividend,
+    incomeRefund,
+    incomeDiscount,
+  ];
 
   // Expense Categories
   static const String expenseOfficeRent = 'Office Rent';
@@ -98,12 +124,127 @@ class AppConstants {
   static const String expenseMaintenance = 'Maintenance';
   static const String expenseInsurance = 'Insurance';
   static const String expenseMiscellaneous = 'Miscellaneous';
+  static const String expenseSoftware = 'Software Licenses';
+  static const String expenseBanking = 'Banking Fees';
+  static const String expenseShipping = 'Shipping';
+  static const String expenseTraining = 'Training';
+  static const String expenseUtilities = 'Utilities';
+  static const String expenseTelephone = 'Telephone';
+  static const String expenseConsulting = 'Consulting Fees';
+
+  // Expense Categories List
+  static const List<String> expenseCategories = [
+    expenseOfficeRent,
+    expenseElectricity,
+    expenseInternet,
+    expenseWater,
+    expenseGas,
+    expenseSalary,
+    expenseBonus,
+    expenseSupplies,
+    expenseLaptop,
+    expenseFurniture,
+    expenseMarketing,
+    expenseFacebookAds,
+    expenseGoogleAds,
+    expenseHosting,
+    expenseDomain,
+    expenseCloud,
+    expenseTravel,
+    expenseFuel,
+    expenseFood,
+    expenseEntertainment,
+    expenseLegal,
+    expenseTax,
+    expenseMaintenance,
+    expenseInsurance,
+    expenseMiscellaneous,
+    expenseSoftware,
+    expenseBanking,
+    expenseShipping,
+    expenseTraining,
+    expenseUtilities,
+    expenseTelephone,
+    expenseConsulting,
+  ];
 
   // Invoice Status
   static const String invoicePaid = 'paid';
   static const String invoicePending = 'pending';
   static const String invoiceOverdue = 'overdue';
   static const String invoiceCancelled = 'cancelled';
+
+  // Investment Types
+  static const String investmentStocks = 'stocks';
+  static const String investmentBonds = 'bonds';
+  static const String investmentMutualFund = 'mutual_fund';
+  static const String investmentRealEstate = 'real_estate';
+  static const String investmentFD = 'fd';
+  static const String investmentCrypto = 'crypto';
+  static const String investmentPPF = 'ppf';
+  static const String investmentEPF = 'epf';
+  static const String investmentNPS = 'nps';
+  static const String investmentGold = 'gold';
+  static const String investmentSIP = 'sip';
+  static const String investmentRD = 'rd';
+  static const String investmentOther = 'other';
+
+  // Investment Types List
+  static const List<String> investmentTypes = [
+    investmentStocks,
+    investmentBonds,
+    investmentMutualFund,
+    investmentRealEstate,
+    investmentFD,
+    investmentCrypto,
+    investmentPPF,
+    investmentEPF,
+    investmentNPS,
+    investmentGold,
+    investmentSIP,
+    investmentRD,
+    investmentOther,
+  ];
+
+  // Payment Methods
+  static const String paymentCash = 'cash';
+  static const String paymentBankTransfer = 'bank_transfer';
+  static const String paymentCheck = 'check';
+  static const String paymentCard = 'card';
+  static const String paymentUPI = 'upi';
+  static const String paymentOnline = 'online';
+  static const String paymentOther = 'other';
+
+  // Payment Methods List
+  static const List<String> paymentMethods = [
+    paymentCash,
+    paymentBankTransfer,
+    paymentCheck,
+    paymentCard,
+    paymentUPI,
+    paymentOnline,
+    paymentOther,
+  ];
+
+  // Recurring Periods
+  static const String periodDaily = 'daily';
+  static const String periodWeekly = 'weekly';
+  static const String periodBiWeekly = 'bi_weekly';
+  static const String periodMonthly = 'monthly';
+  static const String periodQuarterly = 'quarterly';
+  static const String periodHalfYearly = 'half_yearly';
+  static const String periodYearly = 'yearly';
+
+  // Recurring Periods List
+  static const List<String> recurringPeriods = [
+    periodDaily,
+    periodWeekly,
+    periodBiWeekly,
+    periodMonthly,
+    periodQuarterly,
+    periodHalfYearly,
+    periodYearly,
+  ];
 
   // Time Periods
   static const String periodToday = 'today';
